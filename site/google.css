@@ -50,7 +50,8 @@ body {
 
 
 
-.button-wrapper{
+.button{
+    
     
     justify-content: space-between;
     margin: auto;
@@ -71,9 +72,11 @@ body {
     user-select: none;
 }
 
-.button-wrapper:hover {
+.button:hover {
+    cursor: pointer;
     border: 1px solid rgb(223,225,229);
     color: #222;
+    box-shadow: 1px 1px 1px #b4b4b4;
 }
 
 
