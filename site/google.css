@@ -114,3 +114,11 @@ body {
 .flink:hover {
     text-decoration: underline;
 }
+
+.footer-left {
+    margin-left: 3px;
+}
+
+.footer-right {
+    margin-right: 30px;
+}
