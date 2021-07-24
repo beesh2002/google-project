@@ -1,1 +1,116 @@
 /* fill in styles here */
+body {
+    color: #222222;
+    font-family: arial,sans-serif;
+    height: 76vh;
+}
+
+
+.content {
+    margin-top: 112px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo {
+    
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+.text-input {
+    width: 582px;
+    height: 43px;
+    font-family: sans-serif;
+    margin: 6px;
+    font-size:16px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+}
+
+.text-input:hover {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    border: none;
+    
+}
+
+
+
+
+
+.button-input{
+    
+    justify-content: space-between;
+    margin: auto;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    
+    margin: 22px 4px;
+    padding: 0px 15px 0px 15px;
+    line-height: 37px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-input:hover {
+    border: 1px solid rgb(223,225,229);
+    color: #222;
+}
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.fbar {
+    display: flex;
+    line-height: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 3px;
+}
+
+.flink {
+    margin: 0;
+    padding-left: 27px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#5f6368;
+}
+
+.flink:hover {
+    text-decoration: underline;
+}
