@@ -50,7 +50,7 @@ body {
 
 
 
-.button-input{
+.button-wrapper{
     
     justify-content: space-between;
     margin: auto;
@@ -71,7 +71,7 @@ body {
     user-select: none;
 }
 
-.button-input:hover {
+.button-wrapper:hover {
     border: 1px solid rgb(223,225,229);
     color: #222;
 }
@@ -115,10 +115,10 @@ body {
     text-decoration: underline;
 }
 
-.footer-left {
+.left {
     margin-left: 3px;
 }
 
-.footer-right {
+.right {
     margin-right: 30px;
 }
